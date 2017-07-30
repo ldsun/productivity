@@ -47,7 +47,7 @@ sudo apt-get install dconf-cli
 
 git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solarized
 cd ~/.solarized
-echo "Select 1 1 YES 1"
+echo "===== Select 1 1 YES 1 ====="
 ./install.sh
 
 # Install plugins
