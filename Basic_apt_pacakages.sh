@@ -56,17 +56,19 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/psprint/zsh-navigation-tools
 cd ~
 
-# replace the default theme
-sed -i 's/ZSH_THEME.*/ZSH_THEME="agnoster"/' ~/.zshrc
-echo "eval \`dircolors ~/.dir_colors/dircolors\`" >> ~/.zshrc
-
 # install plugins
 cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/psprint/zsh-navigation-tools
+cd ~
+
+# replace the default theme
+sed -i 's/ZSH_THEME.*/ZSH_THEME="agnoster"/' ~/.zshrc
 sed -i '/^plugins/s/)$/ zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting zsh-history-substring-search compleat)/' ~/.zshrc
+echo "eval \`dircolors ~/.dir_colors/dircolors\`" >> ~/.zshrc
 source ~/.zshrc
+
 
 # Restart terminator and change Terminator's preference
 echo "Restart termintor and change terminator's preference"
