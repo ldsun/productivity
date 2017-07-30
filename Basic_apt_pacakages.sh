@@ -29,11 +29,11 @@ sudo apt-get install sublime-text
 
 # Copy above commands into a file and run
 #====================================================================
-# =====Open terminator
 # Zsh 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# == Open a terminal (not terminator) and run:
 
 # Copy below commands into a file and run in terminator
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
@@ -47,6 +47,7 @@ sudo apt-get install dconf-cli
 
 git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solarized
 cd ~/.solarized
+echo "Select 1 1 YES 1"
 ./install.sh
 
 # Install plugins
