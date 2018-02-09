@@ -1,6 +1,6 @@
 * Edit .zshrc
 1. Change theme to agnoster `ZSH_THEME="agnoster"`
-2. Add `DEFAULT_USER=`whoami``
+2. Add `DEFAULT_USER=\`whoami\``
 2. Add plugin 
    ```
    plugins=(
