@@ -4,7 +4,7 @@
 3. Add plugin 
    ```
    plugins=(
-  git zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting zsh-history-substring-search compleat zsh-dircolors-solarized zsh-256color
+  git zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting compleat
 )
    ```
 
